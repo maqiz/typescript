@@ -70,7 +70,7 @@ create(false); // Error
 create(undefined); // Error
 
 #类型断言
-let someValue: ant = 'this is a string';
+let someValue: any = 'this is a string';
 //第一种写法
 let strLengt: number = (<string>someValue).length;
 //第二种写法
